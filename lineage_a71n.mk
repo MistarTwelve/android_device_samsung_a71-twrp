@@ -28,6 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a71n
 PRODUCT_NAME := lineage_a71n
@@ -37,4 +38,4 @@ PRODUCT_MANUFACTURER := samsung
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-3
+    ro.vendor.build.security_patch=2045-01-17
