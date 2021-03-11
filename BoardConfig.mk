@@ -106,3 +106,8 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone17/temp
 TW_Y_OFFSET := 110
 TW_H_OFFSET := -110
+## Magisk repacktools support
+TW_INCLUDE_REPACKTOOLS := true
+TW_INCLUDE_RESETPROP := true
+## Include NTFS Support
+TW_INCLUDE_NTFS_3G := true
