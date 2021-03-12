@@ -33,6 +33,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 PRODUCT_DEVICE := a71
 PRODUCT_NAME := omni_a71
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := samsung
+PRODUCT_MODEL := SM-A715F
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_RELEASE_NAME := samsung samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
