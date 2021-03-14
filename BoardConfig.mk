@@ -81,6 +81,15 @@ TARGET_BOARD_PLATFORM := sm6150
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
+# Root
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+BOARD_ROOT_EXTRA_FOLDERS := \
+    efs \
+    metadata \
+    optics \
+    prism \
+    omr
+
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_USES_RECOVERY_AS_BOOT := false
